@@ -1,0 +1,347 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "pan_name": "DXXXXXXXN CXXXXXA PXXXXXH",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-01-07"
+    }
+  },
+  "case2": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BAXPV4873L",
+        "pan_name": "VXXXXL",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2016-09-14"
+    }
+  },
+  "case3": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AATFV2323C",
+        "pan_name": "VXXXXT CXXXXXXXXXY SXXXXXXS",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2020-10-02"
+    }
+  },
+  "case4": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAQHS2176D",
+        "pan_name": "SXXXXY V AXXXXXL HXF",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2006-07-10"
+    }
+  },
+  "case5": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAAV2459D",
+        "pan_name": "VXXXXH EXXXXXXXXXL IXXXXXXXXXXS",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2004-07-23"
+    }
+  },
+  "case6": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAABS0012L",
+        "pan_name": "SXXXXXR SXXXXN EXXXXXXXN SXXXXXY",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "1996-10-08"
+    }
+  },
+  "case7": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAGM0289C",
+        "pan_name": "MXXXXXXY OF RXXXXXXS",
+        "specified_person": "Y",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-05-31"
+    }
+  },
+  "case8": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAJJ0849E",
+        "pan_name": "J K LXXXXXXXXT UXXXXXXXXY",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2011-07-21"
+    }
+  },
+  "case9": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAALS0235R",
+        "pan_name": "SXXXA NXXXR EXXXXXXXXXL SXXXXXY",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2003-08-01"
+    }
+  },
+  "case10": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAATN2208D",
+        "pan_name": "NXXXXXXL KXXXXXA EXXXXXXXN SXXXXXY",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2000-04-07"
+    }
+  },
+  "case11": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAXCS5428G",
+        "pan_name": "SXXXXXXXXXE CXXXXXXXG PXXXXXE LXXXXXD",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2016-09-15"
+    }
+  },
+  "case12": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "LJKPK2266E",
+        "pan_name": "",
+        "specified_person": "",
+        "pan_operative_status": "",
+        "fin_year": "",
+        "pan_allotment_date": "2021-12-06"
+    }
+  },
+  "case13": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "ADOPJ2494G",
+        "pan_name": "AXXT JXXN",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2002-05-01"
+    }
+  },
+  "case14": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "DZLPD6077D",
+        "pan_name": "CXXXXXN SXXXXXXXXXXH DXS",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-11-19"
+    }
+  },
+  "case15": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AQCPS5636E",
+        "pan_name": "IXXXXXXL SXXXH",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2002-08-12"
+    }
+  },
+  "case16": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case17": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case18": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case19": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case20": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case21": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case22": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case23": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case24": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case25": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "CVVPS3636N",
+        "pan_name": "SXXXXH SXXXXXA",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2010-07-21"
+    }
+  },
+  "case26": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "BJPPX6837G",
+        "pan_name": "",
+        "specified_person": "",
+        "pan_operative_status": "",
+        "fin_year": "",
+        "pan_allotment_date": ""
+    }
+  },
+  "case27": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "pan_name": "DXXXXXXXN CXXXXXA PXXXXXH",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-01-07"
+    }
+  },
+  "case28": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BQXPL8246B",
+        "pan_name": "NXXXXXXi LXXXXXXXXn",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2023-03-07"
+    }
+  },
+  "case29": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "pan_name": "DXXXXXXXN CXXXXXA PXXXXXH",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-01-07"
+    }
+  },
+  "case30": {
+    "http_response_code": 400,
+    "client_ref_num": "!@#$%",
+    "error": "One or more parameters format is wrong"
+  },
+  "case31": {
+    "http_response_code": 400,
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong"
+  },
+  "case32": {
+    "http_response_code": 400,
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case33": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+    "result": {
+        "pan": "BJPPC6837G",
+        "pan_name": "DXXXXXXXN CXXXXXA PXXXXXH",
+        "specified_person": "N",
+        "pan_operative_status": "operative",
+        "fin_year": "2024-25",
+        "pan_allotment_date": "2017-01-07"
+    }
+  },
+  "case34": {
+    "http_response_code": 400,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDCC",
+    "error": "One or more parameters format is wrong"
+  },
+  "case35": {
+    "http_response_code": 401,
+    "client_ref_num": "Vampire",
+    "error": "Client Authentication Failed"
+  }
+}

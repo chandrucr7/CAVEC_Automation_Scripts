@@ -1,0 +1,342 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is already linked to given Aadhaar",
+        "code": "LINK-001"
+    }
+  },
+  "case2": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "PAN not linked with Aadhaar",
+        "code": "LINK-002"
+    }
+  },
+  "case3": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "69XXXXXXXX68"
+    }
+  },
+  "case4": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case5": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case6": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case7": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case8": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case9": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case10": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case11": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case12": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case13": {
+    "http_response_code": 200,
+    "result_code": 103,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "PAN entered is inactive",
+        "code": "LINK-005"
+    }
+  },
+  "case14": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "29XXXXXXXX15"
+    }
+  },
+  "case15": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "98XXXXXXXX76"
+    }
+  },
+  "case16": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Please enter valid Individual Pan Card Number",
+        "code": "LINK-010"
+    }
+  },
+  "case17": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is already linked to given Aadhaar",
+        "code": "LINK-001"
+    }
+  },
+  "case18": {
+    "http_response_code": 400,
+    "client_ref_num": "!@#$%",
+    "error": "One or more parameters format is wrong"
+  },
+  "case19": {
+    "http_response_code": 400,
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong"
+  },
+  "case20": {
+    "http_response_code": 400,
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case21": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+    "result": {
+        "message": "Is already linked to given Aadhaar",
+        "code": "LINK-001"
+    }
+  },
+  "case22": {
+    "http_response_code": 400,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDCC",
+    "error": "One or more parameters format is wrong"
+  },
+  "case23": {
+    "http_response_code": 200,
+    "result_code": 103,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "PAN does not exist",
+        "code": "LINK-003"
+    }
+  },
+  "case24": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is already linked to given Aadhaar",
+        "code": "LINK-001"
+    }
+  },
+  "case25": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is already linked to given Aadhaar",
+        "code": "LINK-001"
+    }
+  },
+  "case26": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case27": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case28": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case29": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case30": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case31": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case32": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case33": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case34": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Please enter a valid 12 digit Aadhaar Number",
+        "code": "LINK-004"
+    }
+  },
+  "case35": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case36": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case37": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case38": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Please enter a valid 12 digit Aadhaar Number",
+        "code": "LINK-004"
+    }
+  },
+  "case39": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Please enter a valid 12 digit Aadhaar Number",
+        "code": "LINK-004"
+    }
+  },
+  "case40": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case41": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "request_id": "0b8b50f3-ad57-11ef-95aa-21a8e6ec54ea",
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other PAN",
+        "code": "LINK-007",
+        "pan": "GKXXXXXX2L"
+    }
+  },
+  "case42": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "request_id": "316a5b44-ad57-11ef-85f9-7565c2bde3c2",
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Is linked to some other Aadhaar",
+        "code": "LINK-006",
+        "aadhaar_number": "73XXXXXXXX46"
+    }
+  },
+  "case43": {
+    "http_response_code": 200,
+    "result_code": 108,
+    "request_id": "42fadd0d-ad57-11ef-831e-7565c2bde3c2",
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Aadhaar PAN linking failed due to Name mismatch",
+        "code": "LINK-009"
+    }
+  },
+  "case44": {
+    "http_response_code": 200,
+    "result_code": 108,
+    "request_id": "592a5bfc-ad57-11ef-b77f-7565c2bde3c2",
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "Aadhaar PAN linking failed due to DOB mismatch",
+        "code": "LINK-008"
+    }
+  },
+  "case45": {
+    "http_response_code": 200,
+    "result_code": 103,
+    "request_id": "646563d8-ad57-11ef-aafa-7565c2bde3c2",
+    "client_ref_num": "Vampire",
+    "result": {
+        "message": "PAN does not exist",
+        "code": "LINK-003"
+    }
+  },
+  "case46": {
+    "http_response_code": 401,
+    "client_ref_num": "Vampire",
+    "error": "Client Authentication Failed"
+  }
+}

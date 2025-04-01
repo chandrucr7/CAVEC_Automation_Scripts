@@ -1,0 +1,48 @@
+Test Case,pan,client_ref_num
+To verify by entering valid Pan number,BJPPC6837G,Tom
+To verify by changing the 5th char of pan number,BJPPX6837G,Tom
+To verify by leaving the pan as empty,,Tom
+To verify by entering empty space in the pan number field, ,Tom
+To verify by entering the pan in lower case alphabets,bjppc6837G,Tom
+To verify by entering the pan more than 10 digit,BJPPC6837GG,Tom
+To verify by entering the pan less than 10 digit,BJPPC6837,Tom
+To verify by entering the pan number as alphabets,ASDFGHJKLQ,Tom
+To verify by entering the pan number as special char,!@#$%^&*(),Tom
+To verify by entering the pan number as numeric char,1234567890,Tom
+To verify by entering the pan number mixed with alpha numeric and special char,ASDF1234%&,Tom
+To verify by entering empty space at the front of the pan number, BJPPC6837G,Tom
+To verify by entering empty space at the end of the pan number,BJPPC6837G ,Tom
+To verify by entering registered individual pan,BJPPC6837G,Tom
+To verify by entering non-registered individual pan,BAXPV4873L,Tom
+To verify by entering registered non-individual pan,AATFV2323C,Tom
+To verify by entering non-registered non-individual pan,AAAGM0289C,Tom
+To verify by entering Firm/Limited liability Partnership pan number,AAAFX2388N,Tom
+To verify by entering Hindu undivided family pan number,AAZHS5420H,Tom
+To verify by entering Association of persons(AOP) pan number,AABAH1614H,Tom
+To verify by entering Body Of Individuals pan number,AAABS0012L,Tom
+To verify by entering Government Agency pan number,AAAGS0160A,Tom
+To verify by entering Artificial Judicial Person pan number,AAAJM1982F,Tom
+To verify by entering Local Authority pan number,AAALS0235R,Tom
+To verify by entering Trust pan number,AACTS4039H,Tom
+To verify by entering company pan number,AAJCC0062G,Tom
+To verify by entering Death pan number,ADCPB5866A,Tom
+To verify by entering invalid(Deactivated) pan number,ADOPJ2494G,Tom
+To verify by entering invalid(Deleted) pan number,LJKPK2266E,Tom
+To verify by entering Fake pan number,DZLPD6077D,Tom
+To verify by entering valid client ref number,BJPPC6837G,Tom
+To verify by entering in-valid client ref number,BJPPC6837G,Tom#
+To verify by entering client ref number more than 45 characters,BJPPC6837G,ChandraprakashChandraprakashChandraprakashChandra
+To verify by entering client ref number as 45 characters,BJPPC6837G,ChandraprakashChandraprakashChandraprakashCha
+To verify by leaving the client ref number as empty,BJPPC6837G,
+To verify by leaving the client ref number as empty space,BJPPC6837G, 
+To verify by entering valid authentication,BJPPC6837G,Tom
+To verify by entering in-valid authentication,BJPPC6837G,Tom
+To verify by entering without authentication,BJPPC6837G,Tom
+To verify by entering one client username and another client password,BJPPC6837G,Tom
+To verify by entering client id which are not having pan to name service,BJPPC6837G,Tom
+To verify by entering empty in the username,BJPPC6837G,Tom
+To verify by entering empty in the password,BJPPC6837G,Tom
+To verify by entering empty in the username and password,BJPPC6837G,Tom
+To verify by entering mock scenario 408 for the befisc,BJPPC6837G,Tom
+To verify by entering mock scenario 403 for the befisc,BJPPC6837G,Tom
+To verify by entering mock scenario 400 for the soft-i,BJPPC6837G,Tom

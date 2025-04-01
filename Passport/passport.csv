@@ -1,0 +1,46 @@
+Test Case,file_number,client_ref_num,dob
+Verify by entering valid passport number,CB1078650050315,pass,11/07/1986
+Verify by entering invalid passport number,CB107865005031@,pass,11/07/1986
+Verify by leaving the passport file number as empty,,pass,11/07/1986
+Verify that 103 is coming only for no record found case,TR2073157501920,pass,10/03/1980
+Verify that 102 is coming only for all cases other than no record found,TR2073157501921,pass,10/03/1981
+To verify by entering the passport file number as special char,!@#$$%^&*()!@#$,pass,11/07/1986
+To verify by entering tha passport file number as numeric char,123456789054326,pass,11/07/1986
+To verify by leaving empty space in the passport file number field, ,pass,11/07/1986
+To verify by entering the passport file number as mixed with numeric alpha and special char,CB12456@#%#^123,pass,11/07/1986
+To verify by entering the passport file number as alpha char,ASDFGHJKLQWERTY,pass,11/07/1986
+To verify by entering the passport file number less than 15 char,CB107865005031,pass,11/07/1986
+To verify by entering the passport file number more than 15 char,CB10786500503155,pass,11/07/1986
+To verify by entering the valid dob number,VS4075627355723,pass,05/06/1982
+To verify by entering the invalid dob number,VS4075627355723,pass,9/06/1982
+To verify by leaving the dob number as empty,VS4075627355723,pass,
+To verify by entering the wrong format for dob,VS4075627355723,pass,32/03/1998
+To verify by entering empty space in the dob number field,VS4075627355723,pass,
+To verify by entering invalid number (slash instead of -),VS4075627355723,pass,05-06-1982
+To verify by entering invalid number (slash instead of .),VS4075627355723,pass,05.06.1982
+To verify by entering invalid client ref number,VS4075627355723,pass@#,05/06/1982
+To verify by entering the client ref number more than 45 characters,VS4075627355723,clientrefnumberclientclientrefnumberclienttaer,05/06/1982
+To verify by leaving the client ref number as empty,VS4075627355723,,05/06/1982
+To verify by leaving the client ref number as empty space,VS4075627355723, ,05/06/1982
+To verify entering valid authentication,GZ1067876748214,pass,10/04/1993
+To verify by entering invalid authentication,GZ1067876748214,pass,10/04/1993
+To verify by entering empty client username,GZ1067876748214,pass,10/04/1993
+To verify by entering empty client password,GZ1067876748214,pass,10/04/1993
+To verify by entering empty username and password,GZ1067876748214,pass,10/04/1993
+To verify by entering one client username and another client password,GZ1067876748214,pass,10/04/1993
+To verify by entering client id which are not having passport service,GZ1067876748214,pass,10/04/1993
+To verify by changing the type of request from post to get,GZ1067876748214,pass,10/04/1993
+To verify by changing the end point url,GZ1067876748214,pass,10/04/1993
+To verify by entering dob format(D/MM/YYYY),VS4075627355723,pass,5/06/1982
+To verify by entering dob format(DD/M/YYYY),VS4075627355723,pass,05/6/1982
+To verify by entering dob format(D/M/YYYY),VS4075627355723,pass,5/6/1982
+To verify by entering dob that accepts upto 31(DD),VS4075627355723,pass,31/01/1982
+To verify by entering dob that accepts upto 12(MM),VS4075627355723,pass,31/12/1982
+To verify by entering dob format(DDMMYYYY),VS4075627355723,pass,05061982
+To verify by entering dob format(DD.MM.YYYY),VS4075627355723,pass,05.06.1982
+To verify by entering dob format(DD.MM.YY),VS4075627355723,pass,05.06.82
+To verify by entering dob format(DDMMYY),VS4075627355723,pass,050682
+Verify that feb month that accepts DD as 31 or not,VS4075627355723,pass,31/02/1982
+Verify that feb month that accepts DD as 29 for leap year or not,VS4075627355723,pass,29/02/1996
+Verify that feb month that accepts DD as 29 for non-leap year or not,VS4075627355723,pass,29/02/1982
+Verify that apr june sept nov accepts 31 or not,VS4075627355723,pass,31/04/1982
