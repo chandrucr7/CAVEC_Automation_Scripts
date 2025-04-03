@@ -1,0 +1,46 @@
+TestCase,pan,aadhaar,client_ref_num
+Verify by entering valid linked pan number,BJPPC6837G,669446616170,Vampire
+Verify by entering valid not linked pan number,CAAPM6513L,241536798669,Vampire
+Entering aadhaar number linked to other pan number,BQNPG8996F,669446616170,Vampire
+Verify by entering in-valid pan number,BJPPC68377,669446616170,Vampire
+Verify by entering pan number as numeric char,1234567890,669446616170,Vampire
+Verify by entering pan number as alpha char,QWERTYUIOP,669446616170,Vampire
+Verify by entering pan number special char,!@#$%&*(,669446616170,Vampire
+mixed of alpha numeric special char,BJPPC68#&$,669446616170,Vampire
+Verify by entering pan number less than 10 char,BJPPC683,669446616170,Vampire
+Verify by entering pan number more than 10 char,BJPPC6837GGG,669446616170,Vampire
+Verify by leaving pan number empty,,669446616170,Vampire
+Verify by leaving pan number empty space, ,669446616170,Vampire
+Verify by entering invalid pan,LJKPK2266E,669446616170,Vampire
+Verify by entering deactivated pan,ADOPJ2494G,669446616170,Vampire
+Verify by entering death pan,AQCPS5636E,669446616170,Vampire
+Verify by entering non individual pan,AAJCC0062G,669446616170,Vampire
+Verify by entering valid client ref number,BJPPC6837G,669446616170,Vampire
+Verify by entering in-valid client ref number,BJPPC6837G,669446616170,!@#$%
+Verify by leaving client ref number empty,BJPPC6837G,669446616170,
+Verify by leaving client ref number empty space,BJPPC6837G,669446616170, 
+Verify by entering client ref number as 45 char,BJPPC6837G,669446616170,chandraprakashDchandraprakashDchandraprakashD
+Verify by entering client ref number more than 45 char,BJPPC6837G,669446616170,chandraprakashDchandraprakashDchandraprakashDCC
+Verify by changing the 5th char of the pan number,BJPPX6837G,669446616170,Vampire
+Verify by entering pan number in lower case char,bjppc6837g,669446616170,Vampire
+valid aadhaar number,BJPPC6837G,669446616170,Vampire
+in-valid Aadhaar number,BJPPC6837G,66944661617$,Vampire
+Aadhaar number as empty,BJPPC6837G,,Vampire
+empty space in the Aadhaar number,BJPPC6837G, ,Vampire
+Aadhaar number less than 12 char,BJPPC6837G,6694,Vampire
+Aadhaar number more than 12 char,BJPPC6837G,6694466161700,Vampire
+Aadhaar number as alphabetic char,BJPPC6837G,QWERTYQWERTY,Vampire
+Aadhaar number as special char,BJPPC6837G,!@#$%^&*()!@,Vampire
+Aadhaar number as mixed of alpha numeric and special char,BJPPC6837G,6694QWERT$#@&,Vampire
+Aadhaar number as 111111111111,BJPPC6837G,111111111111,Vampire
+Verify by entering cancelled aadhaar number,BJPPC6837G,877018020033,Vampire
+Verify by entering inactive aadhaar number,BJPPC6837G,702529921601,Vampire
+Verify by entering the aadhaar number not exists,BJPPC6837G,401977804665,Vampire
+Verify by entering aadhaar number starts with 0,BJPPC6837G,069446616170,Vampire
+Verify by entering verhoff check aadhaar number,BJPPC6837G,669446616171,Vampire
+entering invalid aadhaar where verhoff check pass,BJPPC6837G,153118812136,Vampire
+Verify by entering data which Linked to other pan,EECPK3183Q,462165830851,Vampire
+Verify by entering data which Linked to other aadhaar ,AMJPR1704P,285033666983,Vampire
+Verify by entering data which Not linked due to name mismatch,BGVPB3945B,920419125734,Vampire
+Verify by entering data which Not linked due to DOB mismatch,BMGPS4514N,730811780605,Vampire
+Verify by entering pan number not exist,BLZPB7123T,547251084443,Vampire

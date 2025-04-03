@@ -1,0 +1,1383 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "BJPPC6837G",
+        "name": "DEVARAJAN CHANDRA PRAKASH",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case2": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "!@#$%"
+  },
+  "case3": {
+    "http_response_code": 200,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+    "result_code": 101,
+    "result": {
+        "pan": "BJPPC6837G",
+        "name": "DEVARAJAN CHANDRA PRAKASH",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case4": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDD"
+  },
+  "case5": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": ""
+  },
+  "case6": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": " "
+  },
+  "case7": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "BJPPC6837G",
+        "name": "DEVARAJAN CHANDRA PRAKASH",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case8": {
+     "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 103,
+    "message": "No record found for the given input",
+    "result": {
+        "pan": "BJPPX6837G",
+        "name": "",
+        "pan_display_name": "",
+        "status": "Invalid",
+        "seeding_status": "",
+        "name_validated": "",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case9": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case10": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case11": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "BJPPC6837G",
+        "name": "DEVARAJAN CHANDRA PRAKASH",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case12": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case13": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case14": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case15": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case16": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case17": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case18": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "BJPPC6837G",
+        "name": "DEVARAJAN CHANDRA PRAKASH",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case19": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "BAXPV4873L",
+        "name": "VISHAL",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case20": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AATFV2323C",
+        "name": "VEDANT CONSULTANCY SERVICES",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case21": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAAGM0289C",
+        "name": "MINISTRY OF RAILWAYS",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case22": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAAFX2388N",
+        "name": "DISCOVER RESORTS LLP",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case23": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "b31c18ca-b213-11ef-b83a-056b973a2e44",
+    "result_code": 101,
+    "result": {
+        "pan": "AAZHS5420H",
+        "name": "SHARAD GUPTA (HUF)",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case24": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AABAH1614H",
+        "name": "HINDUSTHAN ART & MUSIC SOCIETY",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case25": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAABS0012L",
+        "name": "SANSKAR SARJAN EDUCATION SOCIETY",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case26": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAAGS0160A",
+        "name": "SAINIK KALYAN VIBHAG",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case27": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAAJM1982F",
+        "name": "MODY UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case28": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAALS0235R",
+        "name": "SURYA NAGAR EDUCATIONAL SOCIETY",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case29": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AACTS4039H",
+        "name": "SOCIETY RAMAN EDUCATION",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case30": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "AAJCC0062G",
+        "name": "COCKATOO SPORTS PRIVATE LIMITED",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "NA",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case31": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 102,
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "ADCPB5866A",
+        "name": "",
+        "pan_display_name": "",
+        "status": "Invalid",
+        "seeding_status": "",
+        "name_validated": "",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case32": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 102,
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "ADOPJ2494G",
+        "name": "",
+        "pan_display_name": "",
+        "status": "Invalid",
+        "seeding_status": "",
+        "name_validated": "",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case33": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 102,
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "LJKPK2266E",
+        "name": "",
+        "pan_display_name": "",
+        "status": "Invalid",
+        "seeding_status": "",
+        "name_validated": "",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case34": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 102,
+    "message": "Invalid ID number or combination of inputs",
+    "result": {
+        "pan": "DZLPD6077D",
+        "name": "",
+        "pan_display_name": "",
+        "status": "Invalid",
+        "seeding_status": "",
+        "name_validated": "",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case35": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case36": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case37": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case38": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case39": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case40": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case41": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case42": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case43": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case44": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case45": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case46": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case47": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case48": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case49": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case50": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case51": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case52": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case53": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case54": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case55": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case56": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 40
+    }
+  },
+  "case57": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case58": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case59": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case60": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case61": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case62": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case63": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case64": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case65": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case66": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case67": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case68": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case69": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case70": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case71": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case72": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case73": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case74": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score":  100
+    }
+  },
+  "case75": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case76": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case77": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case78": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case79": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case80": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "457ae5f5-b235-11ef-92bf-6ff0a4438bc8",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case81": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "5c43a692-b235-11ef-b8a1-6ff0a4438bc8",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case82": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "d9a7e34d-b235-11ef-87a7-6ff0a4438bc8",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case83": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "eff2fc40-b235-11ef-967a-6ff0a4438bc8",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case84": {
+    "error": "One or more parameters format is wrong",
+    "http_response_code": 400,
+    "client_ref_num": "Vampire"
+  },
+  "case85": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "1a777519-b236-11ef-a4c6-e160a6d8e1c9",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case86": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "27552acb-b236-11ef-a597-ff37b3f258a0",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case87": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "39998210-b236-11ef-af72-ed99a45b4c42",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case88": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "596d384e-b236-11ef-b0ab-55a13a106e9a",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case89": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "6826391e-b236-11ef-94f0-55a13a106e9a",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case90": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "9ad7f2aa-b236-11ef-b0ab-55a13a106e9a",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 80
+    }
+  },
+  "case91": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "ae7334fe-b236-11ef-8785-55a13a106e9a",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 83
+    }
+  },
+  "case92": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "c2606f69-b236-11ef-8dad-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case93": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "cf264cf9-b236-11ef-a33c-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 75
+    }
+  },
+  "case94": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "dcb84902-b236-11ef-b50e-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case95": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "f5e0c0fd-b236-11ef-a327-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case96": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "06c01793-b237-11ef-a70e-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case97": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "17a6adaf-b237-11ef-9c37-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case98": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "26d20aaa-b237-11ef-898b-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": true,
+        "name_match_score": 100
+    }
+  },
+  "case99": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "32ea1322-b237-11ef-8f84-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case100": {
+    "http_response_code": 200,
+    "client_ref_num": "Vampire",
+    "request_id": "40d4763b-b237-11ef-87b1-c114993f77d5",
+    "result_code": 101,
+    "result": {
+        "pan": "HYNPK0402G",
+        "name": "PRADIP MANIBHAI KALARIYA",
+        "pan_display_name": "",
+        "status": "Active",
+        "seeding_status": "Y",
+        "name_validated": "Y",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case101": {
+    "http_response_code": 401,
+    "client_ref_num": "Vampire",
+    "error": "Client Authentication Failed"
+  }
+}

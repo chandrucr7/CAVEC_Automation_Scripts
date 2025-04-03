@@ -1,0 +1,216 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case2": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "n",
+        "aadhaar_number": ""
+    }
+  },
+  "case3": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case4": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case5": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case6": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case7": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case8": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case9": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case10": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case11": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case12": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case13": {
+    "http_response_code": 400,
+    "client_ref_num": "!@#$%",
+    "error": "One or more parameters format is wrong"
+  },
+  "case14": {
+    "http_response_code": 400,
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong"
+  },
+  "case15": {
+    "http_response_code": 400,
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case16": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case17": {
+    "http_response_code": 400,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDCC",
+    "error": "One or more parameters format is wrong"
+  },
+  "case18": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case19": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "66XXXXXXXX70"
+    }
+  },
+  "case20": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "85XXXXXXXX76"
+    }
+  },
+  "case21": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case22": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case23": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case24": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case25": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case26": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case27": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case28": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case29": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case30": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "29XXXXXXXX15"
+    }
+  },
+  "case31": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case32": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "linked": "y",
+        "aadhaar_number": "98XXXXXXXX76"
+    }
+  },
+  "case33": {
+    "http_response_code": 200,
+    "result_code": 102,
+    "client_ref_num": "Vampire",
+    "message": "Invalid ID Number or Combination of Inputs"
+  },
+  "case34": {
+    "http_response_code": 401,
+    "client_ref_num": "Vampire",
+    "error": "Client Authentication Failed"
+  }
+}

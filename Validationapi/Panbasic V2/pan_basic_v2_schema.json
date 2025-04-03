@@ -1,0 +1,1188 @@
+{
+    "case1": {
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "bcf35392-b20f-11ef-8ceb-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case2":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "e3981d75-b210-11ef-a264-8599536b0847",
+        "result_code": 103,
+        "message": "No record found for the given input",
+        "result": {
+            "pan": "BJPPX6837G",
+            "status": "Invalid",
+            "status_code": "N",
+            "name": "",
+            "dob": "",
+            "seeding_status": ""
+        }
+    },
+    "case3":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "1969cfeb-b211-11ef-abcc-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case4":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "469829e7-b211-11ef-8119-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case5":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "7f5bb2ba-b211-11ef-a99d-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case6":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "b5a1b896-b211-11ef-952e-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case7":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "e971ec28-b211-11ef-aaec-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case8":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "29eaf93a-b212-11ef-8944-ddb7facd2daf",
+        "client_ref_num": "Vampire"
+    },
+    "case9":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "768ffbf0-b212-11ef-9006-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case10":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "ab9cd3f4-b212-11ef-911e-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case11":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "0f3af298-b213-11ef-b0ed-8599536b0847",
+        "client_ref_num": "Vampire"
+    },
+    "case12":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "7863dbcc-b213-11ef-930a-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case13":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "c7b503ee-b213-11ef-b7b0-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "BAXPV4873L",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "Y"
+        }
+    },
+    "case14":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "533bf0f7-b214-11ef-bf4f-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AATFV2323C",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case15":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "f895ff41-b214-11ef-9698-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAAGM0289C",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case16":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "46a4700f-b215-11ef-99b8-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAAFX2388N",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case17":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "72564001-b215-11ef-bea8-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAZHS5420H",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case18":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "9e4b977e-b215-11ef-a62e-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AABAH1614H",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case19":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "cb7bb853-b215-11ef-9ffe-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAABS0012L",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case20":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "f9a8e53d-b215-11ef-8e05-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAAGS0160A",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case21":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "2ccd2416-b216-11ef-9631-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAAJM1982F",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case22":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "91d989f2-b216-11ef-833c-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAALS0235R",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case23":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "c1b96492-b216-11ef-87bb-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AACTS4039H",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case24":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "10741948-b217-11ef-a932-8599536b0847",
+        "result_code": 101,
+        "result": {
+            "pan": "AAJCC0062G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "NA"
+        }
+    },
+    "case25":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "639b81ff-b217-11ef-9798-8599536b0847",
+        "result_code": 102,
+        "message": "Invalid ID number or combination of inputs",
+        "result": {
+            "pan": "ADCPB5866A",
+            "status": "Invalid",
+            "status_code": "ED",
+            "name": "",
+            "dob": "",
+            "seeding_status": ""
+        }
+    },
+    "case26":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "4eb0315a-b21f-11ef-983b-617d7aed0f38",
+        "result_code": 102,
+        "message": "Invalid ID number or combination of inputs",
+        "result": {
+            "pan": "ADOPJ2494G",
+            "status": "Invalid",
+            "status_code": "X",
+            "name": "",
+            "dob": "",
+            "seeding_status": ""
+        }
+    },
+    "case27":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "76356d50-b21f-11ef-867c-617d7aed0f38",
+        "result_code": 102,
+        "message": "Invalid ID number or combination of inputs",
+        "result": {
+            "pan": "LJKPK2266E",
+            "status": "Invalid",
+            "status_code": "X",
+            "name": "",
+            "dob": "",
+            "seeding_status": ""
+        }
+    },
+    "case28":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "b3586dab-b21f-11ef-b412-617d7aed0f38",
+        "result_code": 102,
+        "message": "Invalid ID number or combination of inputs",
+        "result": {
+            "pan": "DZLPD6077D",
+            "status": "Invalid",
+            "status_code": "F",
+            "name": "",
+            "dob": "",
+            "seeding_status": ""
+        }
+    },
+    "case29":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "edc88d0a-b21f-11ef-bae6-617d7aed0f38",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case30":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "d825f04b-b220-11ef-aa73-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case31":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "1c6a724f-b221-11ef-85ee-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case32":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "4748d653-b221-11ef-944e-17d159e2b4ac",
+        "client_ref_num": "Vampire"
+    },
+    "case33":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "6b773cf2-b221-11ef-b526-17d159e2b4ac",
+        "client_ref_num": "Vampire"
+    },
+    "case34":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "92d35ef9-b221-11ef-91ad-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case35":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "d471133d-b221-11ef-ab20-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case36":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "2e8ff3d8-b222-11ef-a297-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case37":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "5fccbd89-b222-11ef-9eab-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case38":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "8d6699c7-b222-11ef-8da1-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case39":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "a0d91740-b223-11ef-8073-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case40":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "f03c0444-b223-11ef-925b-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case41":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "4a8e74df-b224-11ef-b73a-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case42":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "95681b97-b224-11ef-bc65-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case43":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "df164f4e-b224-11ef-8ad6-637e8b0a01d2",
+        "client_ref_num": "!@#$%"
+    },
+    "case44":{
+        "http_response_code": 200,
+        "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+        "request_id": "0f19ea29-b225-11ef-83b9-17d159e2b4ac",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case45":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "36568711-b225-11ef-846b-17d159e2b4ac",
+        "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDD"
+    },
+    "case46":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "8e011f90-b225-11ef-b1d8-17d159e2b4ac",
+        "client_ref_num": ""
+    },
+    "case47":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "e4ee6fa4-b225-11ef-9797-17d159e2b4ac",
+        "client_ref_num": " "
+    },
+    "case48":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"3368561b-b227-11ef-8811-17d159e2b4ac",
+        "result_code":101,
+        "result":{
+            "pan":"BTKPA8785Q",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case49":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"86d91d12-b227-11ef-82e2-17d159e2b4ac",
+        "client_ref_num":"Vampire"
+    },
+    "case50":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"ee2dd541-b227-11ef-ba09-17d159e2b4ac",
+        "client_ref_num":"Vampire"
+    },
+    "case51":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"305e7284-b228-11ef-b2fd-17d159e2b4ac",
+        "client_ref_num":"Vampire"
+    },
+    "case52":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"c474525e-b228-11ef-9f73-17d159e2b4ac",
+        "client_ref_num":"Vampire"
+    },
+    "case53":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"0e343f3d-b22a-11ef-a3e6-1df23031b6d2",
+        "client_ref_num":"Vampire"
+    },
+    "case54":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"ae0fe894-b22a-11ef-a507-1df23031b6d2",
+        "client_ref_num":"Vampire"
+    },
+    "case55":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"02c461e0-b22b-11ef-9923-1df23031b6d2",
+        "client_ref_num":"Vampire"
+    },
+    "case56":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"dc0096dc-b22b-11ef-9a9a-275d9933163a",
+        "client_ref_num":"Vampire"
+    },
+    "case57":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"4ca310c7-b22c-11ef-b900-275d9933163a",
+        "client_ref_num":"Vampire"
+    },
+    "case58":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"fdaa33b3-b22c-11ef-bf26-275d9933163a",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case59":{
+        "error":"Client Authentication Failed",
+        "http_response_code":401,
+        "request_id":"3db5008b-b22d-11ef-bee1-275d9933163a",
+        "client_ref_num":"Vampire"
+    },
+    "case60":{
+        "error":"Client Authentication Failed",
+        "http_response_code":401,
+        "request_id":"a749a33b-b234-11ef-a60d-6ff0a4438bc8",
+        "client_ref_num":"Vampire"
+    },
+    "case61": {
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"2d1a22da-b236-11ef-8256-6ff0a4438bc8",
+        "client_ref_num":"Vampire"
+    },
+    "case62":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"197606cb-b237-11ef-925e-6ff0a4438bc8",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"Y"
+            }
+    },
+    "case63":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "a2664f43-b237-11ef-98fe-6ff0a4438bc8",
+        "result_code": 101,
+        "result": {
+            "pan": "DNUPS6092E",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "N",
+            "seeding_status": "Y"
+        }
+    },
+    "case64":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "dbb4db9b-b237-11ef-b4ff-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case65":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "2e4d12e2-b238-11ef-867c-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case66":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "6a1cbf18-b238-11ef-938a-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case67":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "a73230f1-b238-11ef-b9de-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case68":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "dee26bcf-b238-11ef-9d8c-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case69":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "3ed00bda-b239-11ef-8956-91d3e3997486",
+        "client_ref_num": "Vampire"
+    },
+    "case70":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "294888a6-b23a-11ef-802d-7ba804c626e2",
+        "client_ref_num": "Vampire"
+    },
+    "case71":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "851dded4-b23a-11ef-85c8-7ba804c626e2",
+        "client_ref_num": "Vampire"
+    },
+    "case72":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "c9c22a2e-b23a-11ef-8a8c-7ba804c626e2",
+        "client_ref_num": "Vampire"
+    },
+    "case73":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "4b5e6010-b23b-11ef-b388-7ba804c626e2",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "N",
+            "seeding_status": "Y"
+        }
+    },
+    "case74":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "bbe7f8c9-b23b-11ef-b138-7ba804c626e2",
+        "client_ref_num": "Vampire"
+    },
+    "case75":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "50ed6db2-b23d-11ef-832a-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case76":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "b885a131-b23d-11ef-9efa-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case77":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "ec595535-b23d-11ef-ab8c-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case78":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "ec595535-b23d-11ef-ab8c-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case79":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "96b54a1d-b23e-11ef-ae18-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case80":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "96b54a1d-b23e-11ef-ae18-973b546ea7af",
+        "client_ref_num": "Vampire"
+    },
+    "case81": {
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"3b9ade15-b246-11ef-af3f-7b73b1f5052e",
+        "client_ref_num":"Vampire"
+    },
+    "case82":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "eb737478-b246-11ef-95d8-c114993f77d5",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "N",
+            "seeding_status": "Y"
+        }
+    },
+    "case83":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "2e7d06aa-b247-11ef-b273-6520411f1903",
+        "result_code": 101,
+        "result": {
+            "pan": "BJPPC6837G",
+            "status": "Active",
+            "status_code": "E",
+            "name": "Y",
+            "dob": "N",
+            "seeding_status": "Y"
+        }
+    },
+    "case84":{
+        "error": "One or more parameters format is wrong",
+        "http_response_code": 400,
+        "request_id": "6063ccf6-b247-11ef-ab74-9b8a32634419",
+        "client_ref_num": "Vampire"
+    },
+    "case85":{
+        "http_response_code": 200,
+        "client_ref_num": "Vampire",
+        "request_id": "c0312ffa-b2cd-11ef-8a98-35b4b6630648",
+        "result_code": 101,
+        "result": {
+            "pan": "BTKPA8785Q",
+            "status": "Active",
+            "status_code": "E",
+            "name": "N",
+            "dob": "Y",
+            "seeding_status": "Y"
+        }
+    },
+    "case86":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"73ddb151-b2cf-11ef-9ead-6db7e339752d",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case87":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"1801f0f0-b2d0-11ef-9b0d-6db7e339752d",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"N",
+            "seeding_status":"Y"
+        }
+    },
+    "case88":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"b98d340d-b2d0-11ef-b23d-6db7e339752d",
+        "result_code":101,
+        "result":{
+            "pan":"AKTPM7533P",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"Y"
+        }
+    },
+    "case89":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"d8d51778-b2d1-11ef-b429-b9a4981fe125",
+        "result_code":101,
+        "result":{
+            "pan":"AKTPM7533P",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"Y"
+        }
+    },
+    "case90":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"45e9beda-b2d2-11ef-8ec2-b9a4981fe125",
+        "result_code":101,
+        "result":{
+            "pan":"AKTPM7533P",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"Y"
+        }
+    },
+    "case91":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"b4eb7483-b2d6-11ef-876b-1d55f7648f13",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case92":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"52081ccf-b2d7-11ef-97d6-194b43a57782",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case93":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"d28d70c6-b2d7-11ef-a3cb-194b43a57782",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case94":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"67d692bf-b2d8-11ef-91a9-194b43a57782",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case95":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"d6cc069a-b2d8-11ef-b732-194b43a57782",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case96":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"b7db165d-b2da-11ef-b570-6d37cdbb76b2",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case97":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"41b0ca64-b2db-11ef-8484-718cea2d9db4",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case98":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"431e0a0c-b2dc-11ef-a646-718cea2d9db4",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case99":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"01015dba-b2dc-11ef-a4ee-718cea2d9db4",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case100":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"2ca88acb-b2dd-11ef-a1f2-63374378304f",
+        "result_code":101,
+        "result":{
+            "pan":"BJPPC6837G",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    },
+    "case101":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"c88ff935-b2dd-11ef-b060-63374378304f",
+        "result_code":101,
+        "result":{
+            "pan":"AAACB0482A",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case102":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"729abe64-b2de-11ef-a365-63374378304f",
+        "result_code":101,
+        "result":{
+            "pan":"AATFV2323C",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case103":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"666186aa-b2df-11ef-ac2b-c50427bb4ea3",
+        "result_code":101,
+        "result":{
+            "pan":"AATFV2323C",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case104":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"dc96c382-b2df-11ef-b22d-c50427bb4ea3",
+        "result_code":101,
+        "result":{
+            "pan":"AATFV2323C",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case105":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"495cc662-b2e0-11ef-bc78-c50427bb4ea3",
+        "result_code":101,
+        "result":{
+            "pan":"AATFV2323C",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case106":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"c12d7eee-b2e0-11ef-abf8-c50427bb4ea3",
+        "result_code":101,
+        "result":{
+            "pan":"AATFV2323C",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case107":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"3c364445-b2e1-11ef-8c54-c50427bb4ea3",
+        "result_code":101,
+        "result":{
+            "pan":"AANCS8180R",
+            "status":"Active",
+            "status_code":"E",
+            "name":"Y",
+            "dob":"N",
+            "seeding_status":"NA"
+        }
+    },
+    "case108":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"8cfc5ef0-b2e1-11ef-bcbc-c50427bb4ea3",
+        "result_code":103,
+        "message":"No record found for the given input",
+        "result":{
+            "pan":"HAHPS7571R",
+            "status":"Invalid",
+            "status_code":"N",
+            "name":"",
+            "dob":"",
+            "seeding_status":""
+        }
+    },
+    "case109":{
+        "error":"One or more parameters format is wrong",
+        "http_response_code":400,
+        "request_id":"f2fc9adb-b2e1-11ef-9892-c50427bb4ea3",
+        "client_ref_num":"Vampire"
+    },
+    "case110":{
+        "http_response_code":200,
+        "client_ref_num":"Vampire",
+        "request_id":"8f479745-b2f4-11ef-bb30-1b87e8e627d3",
+        "result_code":101,
+        "result":{
+            "pan":"BTKPA8785Q",
+            "status":"Active",
+            "status_code":"E",
+            "name":"N",
+            "dob":"Y",
+            "seeding_status":"Y"
+        }
+    }
+}

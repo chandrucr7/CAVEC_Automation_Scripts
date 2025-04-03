@@ -1,0 +1,19 @@
+Test Case,epic_number,client_ref_num
+valid voter number,LZX4516662,Vampire
+in-valid voter number,LZZZZZZ66Z,Vampire
+voter number as empty,,Vampire
+empty space in the voter number, ,Vampire
+leave empty in the voter number and client ref number, , 
+voter number in special characters,!@#$%^&*(),Vampire
+voter number in all numeric characters,1234567890,Vampire
+entering voter number in all alpha  characters,QWERTYUIOP,Vampire
+entering voter number alpha char in lower case,lzx4516662,Vampire
+entering new format voter id,LZX4516662,Vampire
+old format voter id,TN/16/088/0042238,Vampire
+voter id which is not found,WYG1254481,Vampire
+valid client ref number,LZX4516662,Vampire
+entering in-valid client ref number,LZX4516662,!@#$%
+entering client ref number more than 45 char,LZX4516662,chandraprakashDchandraprakashDchandraprakashDchandraprakashD
+entering client ref number as 45 char,LZX4516662,chandraprakashDchandraprakashDchandraprakashD
+giving empty in the client ref number,LZX4516662,
+giving empty space in the client ref number,LZX4516662, 

@@ -1,0 +1,401 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999"
+    }
+  },
+  "case2": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AATFV2323C",
+        "fullname": "VEDANT CONSULTANCY SERVICES",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "VEDANT CONSULTANCY SERVICES",
+        "dob": "24/09/2020"
+    }
+  },
+  "case3": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAQHS2176D",
+        "fullname": "SANJAY V AGARWAL HUF",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "SANJAY V AGARWAL HUF",
+        "dob": "01/04/2006"
+    }
+  },
+  "case4": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAAV2459D",
+        "fullname": "VIKASH EDUCATIONAL INSTITUTIONS",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "VIKASH EDUCATIONAL INSTITUTIONS",
+        "dob": "27/03/2003"
+    }
+  },
+  "case5": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAABS0012L",
+        "fullname": "SANSKAR SARJAN EDUCATION SOCIETY",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "SANSKAR SARJAN EDUCATION SOCIETY",
+        "dob": "27/07/1972"
+    }
+  },
+  "case6": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAGM0289C",
+        "fullname": "MINISTRY OF RAILWAYS",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "MINISTRY OF RAILWAYS",
+        "dob": "25/01/1950"
+    }
+  },
+  "case7": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAAJJ0849E",
+        "fullname": "J K LAKSHMIPAT UNIVERSITY",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "J K LAKSHMIPAT UNIVERSITY",
+        "dob": "07/06/2011"
+    }
+  },
+  "case8": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAALS0235R",
+        "fullname": "SURYA NAGAR EDUCATIONAL SOCIETY",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "SURYA NAGAR EDUCATIONAL SOCIETY",
+        "dob": "28/07/1982"
+    }
+  },
+  "case9": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAATN2208D",
+        "fullname": "NATIONAL KANNADA EDUCATION SOCIETY",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "NATIONAL KANNADA EDUCATION SOCIETY",
+        "dob": "12/10/1939"
+    }
+  },
+  "case10": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "AAXCS5428G",
+        "fullname": "SPRINGHOUSE COWORKING PRIVATE LIMITED",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "SPRINGHOUSE COWORKING PRIVATE LIMITED",
+        "dob": "05/09/2016"
+    }
+  },
+  "case11": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case12": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case13": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case14": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case15": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case16": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case17": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "Invalid ID number or combination of inputs"
+  },
+  "case18": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case19": {
+    "http_response_code": 400,
+    "client_ref_num": "Vampire",
+    "error": "One or more parameters format is wrong"
+  },
+  "case20": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999"
+    }
+  },
+  "case21": {
+    "http_response_code": 400,
+    "client_ref_num": "!@#$%",
+    "error": "One or more parameters format is wrong"
+  },
+  "case22": {
+    "http_response_code": 400,
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong"
+  },
+  "case23": {
+    "http_response_code": 400,
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case24": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999"
+    }
+  },
+  "case25": {
+    "http_response_code": 400,
+    "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDCC",
+    "error": "One or more parameters format is wrong"
+  },
+  "case26": {
+    "http_response_code": 200,
+    "result_code": 103,
+    "client_ref_num": "Vampire",
+    "message": "No record found for the given input",
+    "result": {
+        "pan": "BJPPX6837G",
+        "fullname": "",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "dob": ""
+    }
+  },
+  "case27": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+      "pan": "BJPPC6837G",
+      "fullname": "DEVARAJAN CHANDRA PRAKASH",
+      "first_name": "DEVARAJAN",
+      "middle_name": "",
+      "last_name": "CHANDRA PRAKASH",
+      "dob": "26/02/1999"
+    }
+  },
+  "case28": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+      "pan": "BQXPL8246B",
+      "fullname": "Namagiri Lakshmanan",
+      "first_name": "Namagiri",
+      "middle_name": "",
+      "last_name": "Lakshmanan",
+      "dob": "16/07/1940"
+    }
+  },
+  "case29": {
+      "http_response_code": 200,
+      "result_code": 102,
+      "client_ref_num": "Vampire",
+      "message": "Invalid ID number or combination of inputs",
+      "result": {
+        "pan": "AIUPI8924P",
+        "fullname": "",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "dob": ""
+      }
+  },
+  "case30": {
+      "http_response_code": 200,
+      "result_code": 102,
+      "client_ref_num": "Vampire",
+      "message": "Invalid ID number or combination of inputs",
+      "result": {
+        "pan": "LJKPK2266E",
+        "fullname": "",
+        "first_name": "",
+        "middle_name": "",
+        "last_name": "",
+        "dob": ""
+      }
+  },
+  "case31": {
+      "http_response_code": 200,
+      "result_code": 101,
+      "client_ref_num": "Vampire",
+      "result": {
+        "pan": "DZLPD6077D",
+        "fullname": "CHANDAN SATENDRANATH DAS",
+        "first_name": "CHANDAN",
+        "middle_name": "SATENDRANATH",
+        "last_name": "DAS",
+        "dob": "13/03/1992"
+      }
+  },
+  "case32": {
+      "http_response_code": 200,
+      "result_code": 103,
+      "client_ref_num": "Vampire",
+      "message": "No record found for the given input",
+      "result": {
+        "pan": "HAHPS7571R",
+        "fullname": "CHANDAN SATENDRANATH DAS",
+        "first_name": "CHANDAN",
+        "middle_name": "SATENDRANATH",
+        "last_name": "DAS",
+        "dob": "13/03/1992"
+      }
+  },
+  "case33": {
+      "http_response_code": 400,
+      "client_ref_num": "Vampire",
+      "error": "Invalid ID number or combination of inputs"
+    },
+  "case34": {
+      "http_response_code": 200,
+      "result_code": 101,
+      "client_ref_num": "Vampire",
+      "result": {
+        "pan": "FYJPR1333F",
+        "fullname": "KOLE RAGHAVI",
+        "first_name": "KOLE",
+        "middle_name": "",
+        "last_name": "RAGHAVI",
+        "dob": "30/03/2002"
+      }
+    },
+
+  "case35": {
+      "http_response_code": 200,
+      "result_code": 101,
+      "client_ref_num": "Vampire",
+      "result": {
+        "pan": "CVVPS3636N",
+        "fullname": "SHAIKH SAVITHA",
+        "first_name": "SHAIKH",
+        "middle_name": "",
+        "last_name": "SAVITHA",
+        "dob": "23/07/1979"
+      }
+    },
+  "case36": {
+    "http_response_code": 401,
+    "client_ref_num": "Vampire",
+    "error": "Client Authentication Failed"
+  },
+  "case37": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999",
+        "name_match": true,
+        "name_match_score": 90
+    }
+  },
+  "case38": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999",
+        "name_match": false,
+        "name_match_score": 0
+    }
+  },
+  "case39": {
+    "http_response_code": 200,
+    "result_code": 101,
+    "request_id": "d15e2fb0-b6cb-11ef-99bd-c7a790c31589",
+    "client_ref_num": "Vampire",
+    "result": {
+        "pan": "BJPPC6837G",
+        "fullname": "DEVARAJAN CHANDRA PRAKASH",
+        "first_name": "DEVARAJAN",
+        "middle_name": "",
+        "last_name": "CHANDRA PRAKASH",
+        "dob": "26/02/1999",
+        "name_match": true,
+        "name_match_score": 75
+    }
+  }
+}

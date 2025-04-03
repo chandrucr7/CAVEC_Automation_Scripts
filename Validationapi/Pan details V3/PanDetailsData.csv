@@ -1,0 +1,42 @@
+Test Cases,pan,client_ref_num
+Individual pan number,BJPPC6837G,Vampire
+Firm/Limited Liability Partnership pan number,AATFV2323C,Vampire
+Hindu Undivided Family (HUF) pan number,AAQHS2176D,Vampire
+Association of Persons (AOP) pan number,AAAAV2459D,Vampire
+Body of Individuals (BOI) pan number,AAABS0012L,Vampire
+Government Agency pan number,AAAGM0289C,Vampire
+Artificial Juridical Person pan number,AAAJJ0849E,Vampire
+Local Authority pan number,AAALS0235R,Vampire
+Trust pan number,AAATN2208D,Vampire
+Company pan number,AAXCS5428G,Vampire
+in-valid pan number,BJPPC68377,Vampire
+pan number as numeric char,1234567890,Vampire
+pan number as alpha char,QWERTYUIOP,Vampire
+pan number as special char,!@#$%^&*(),Vampire
+pan number as mixed of alpha numeric special char,BJPPC68#&$,Vampire
+pan number less than 10 char,BJPPC683,Vampire
+pan number more than 10 char,BJPPC6837GGG,Vampire
+pan number empty,,Vampire
+pan number empty space, ,Vampire
+valid client ref number,BJPPC6837G,Vampire
+in-valid client ref number,BJPPC6837G,!@#$%
+leaving client ref number empty,BJPPC6837G,
+client ref number empty space,BJPPC6837G, 
+client ref number as 45 char,BJPPC6837G,chandraprakashDchandraprakashDchandraprakashD
+client ref number more than 45 char,BJPPC6837G,chandraprakashDchandraprakashDchandraprakashDCC
+changing the 5th char of the pan number,BJPPX6837G,Vampire
+pan number in lower case char,bjppc6837g,Vampire
+entering e pan number,BQXPL8246B,Vampire
+pan number which we got 500 response earlier with enabled client id,BUHPT8228D,Vampire200
+pan number which we got 500 response earlier with disabled client id,BUHPT8228D,Vampire422
+Entering Deleted pan number,AIUPI8924P,Vampire
+Entering Deactivated pan number,LJKPK2266E,Vampire
+Entering Fake pan number,DZLPD6077D,Vampire
+Entering No Record Found pan number,HAHPS7571R,Vampire
+Entering Invalid (Regex) pan number,IYGP4523AK,Vampire
+Entering Valid (Different PAN Display Name) pan number,NWNPS0264Q,Vampire
+Entering IT registered transgender pan number,CVVPS3636N,Vampire
+Entering Non IT registered transgender pan number,FYJPR1333F,Vampire
+Aadhaar number present in both IT profile api and aadhaar link api,EDLPP4057C,Vampire
+Aadhaar number not found in IT profile api and aadhaar link api,FHAPS9549N,Vampire
+Aadhaar number not found in the IT profile and present in the aadhaar link api,BMUPB7805B,Vampire
