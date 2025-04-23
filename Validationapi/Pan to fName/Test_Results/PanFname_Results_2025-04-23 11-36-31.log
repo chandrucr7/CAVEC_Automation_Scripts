@@ -1,0 +1,21 @@
+============================================================
+Running Test Case: Verify that the result code 101 is stored in DB
+------------------------------------------------------------
+
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': 'PUHQgvzoqy'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "f6c8c403-0421-466e-a16d-628225f10c90", "client_ref_num": "PUHQgvzoqy", "result": {"pan": "BJPPC6837G", "father_name": "DEVARAJAN"}}
+
+Database Verification for Client Ref Num: PUHQgvzoqy
+pan = BJPPC6837G
+client_ref_num = PUHQgvzoqy
+http_status_code = 200
+result_code = 101
+error = None
+source_response = {"status":"SUCCESS","errdata":null,"data":{"pan":"BJPPC6837G","father_name":"DEVARAJAN","is_individual":"true","name_on_pan":"DEVARAJAN CHANDRA PRAKASH"},"message":"Data fetch successfully!!!","requestid":"95ba12fa-0ea7-484f-bdc6-41caa78f42c2","sequenceId":"09f0699c-00e8-47c4-8ac2-ae994a50225e"}
+source_tat = 135.64
+created_on = 2025-04-23 11:36:35
+updated_on = 2025-04-23 11:36:36
+============================================================
+Finished Test Case: Verify that the result code 101 is stored in DB
+------------------------------------------------------------

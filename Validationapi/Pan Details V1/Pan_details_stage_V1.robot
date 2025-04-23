@@ -3155,7 +3155,7 @@ Test Case 127
 
     # Generate a random client reference number
     ${random_client_ref_num}=    Generate Random String    10    [LETTERS]
-    ${body}=    Evaluate    { "pan_details":"EBQPP7566F", "client_ref_num":"${random_client_ref_num}" }
+    ${body}=    Evaluate    { "pan":"EBQPP7566F", "client_ref_num":"${random_client_ref_num}" }
 
     # Define request headers
     ${header}=    Create Dictionary
