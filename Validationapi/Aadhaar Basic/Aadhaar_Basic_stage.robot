@@ -1673,7 +1673,7 @@ Test_case82
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1699,7 +1699,7 @@ Test_case83
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1725,7 +1725,7 @@ Test_case84
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1751,7 +1751,7 @@ Test_case85
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1777,7 +1777,7 @@ Test_case86
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1803,7 +1803,7 @@ Test_case87
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1829,7 +1829,7 @@ Test_case88
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1855,7 +1855,7 @@ Test_case89
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    103
+    Should Be Equal As Strings  ${response.json()['result_code']}    103
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    No records found for the given Input
 
@@ -1881,6 +1881,6 @@ Test_case90
     # Validations
     ${result_body}=    convert to string    ${response.content}
     Should Be Equal As Strings  ${response.json()['http_response_code']}    200
-    Should Be Equal As Strings  ${response.json()['http_response_code']}    102
+    Should Be Equal As Strings  ${response.json()['result_code']}    102
     Should Be Equal As Strings  ${response.json()['client_ref_num']}    ${random_client_ref_num}
     Should Be Equal As Strings  ${response.json()['message']}    Invalid Aadhaar

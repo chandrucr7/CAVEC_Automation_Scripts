@@ -1,0 +1,330 @@
+File content loaded successfully.
+------------------- STARTING TEST CASES -------------------
+
+============================================================
+Running Test Case: Entering IT registered pan number
+------------------------------------------------------------
+Request Body: {'pan': 'FYJPR1333F', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "0adfef20-ee5b-43cf-bd13-de42f4ee1572", "client_ref_num": "Vampire", "result": {"pan": "FYJPR1333F", "father_name": "KOLE RANGAIAH"}}
+Test case "Entering IT registered pan number" PASSED
+
+
+============================================================
+Running Test Case: Entering Non IT registered  pan number
+------------------------------------------------------------
+Request Body: {'pan': 'EDLPP4057C', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "531c6c7d-495a-4e7c-9c8e-5af94440659b", "client_ref_num": "Vampire", "result": {"pan": "EDLPP4057C", "father_name": "NAVALBHAI DANUBHAI MITHAPARA"}}
+Test case "Entering Non IT registered  pan number" PASSED
+
+
+============================================================
+Running Test Case: Firm/Limited Liability Partnership pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AATFV2323C', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "7c5c56a2-8be2-4925-9648-5aa8710844f3", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Firm/Limited Liability Partnership pan number" PASSED
+
+
+============================================================
+Running Test Case: Hindu Undivided Family (HUF) pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAQHS2176D', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "e7912418-a1bd-44c5-8e04-bc3027386847", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Hindu Undivided Family (HUF) pan number" PASSED
+
+
+============================================================
+Running Test Case: Association of Persons (AOP) pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAAAV2459D', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "1a8387e4-ff09-4fea-b72e-aa69f64e38ca", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Association of Persons (AOP) pan number" PASSED
+
+
+============================================================
+Running Test Case: Body of Individuals (BOI) pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAABS0012L', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "c94ef40a-dae8-4336-9ea1-ffb50454deef", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Body of Individuals (BOI) pan number" PASSED
+
+
+============================================================
+Running Test Case: Government Agency pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAAGM0289C', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "80266399-90b8-4da0-812c-a8425e7002ca", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Government Agency pan number" PASSED
+
+
+============================================================
+Running Test Case: Artificial Juridical Person pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAAJJ0849E', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "42751ec9-5cb7-4cd2-bee0-4c3f798e581d", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Artificial Juridical Person pan number" PASSED
+
+
+============================================================
+Running Test Case: Local Authority pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAALS0235R', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "a7eb4d70-5914-45c5-8713-37e8c66f8136", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Local Authority pan number" PASSED
+
+
+============================================================
+Running Test Case: Trust pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAATN2208D', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "f2ece301-c92f-4d83-ab17-300e4a120df1", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Trust pan number" PASSED
+
+
+============================================================
+Running Test Case: Company pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AAXCS5428G', 'client_ref_num': 'Vampire'}
+Response Status Code: 403
+Response Content: {"http_response_code": 403, "request_id": "91d7e9a8-4fae-47f7-8666-2341b972f367", "client_ref_num": "Vampire", "error": "Father Name not supported for Input PAN type."}
+Test case "Company pan number" PASSED
+
+
+============================================================
+Running Test Case: in-valid pan number
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC68377', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "8447153c-bb90-479e-a926-867fd62ed312", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "in-valid pan number" PASSED
+
+
+============================================================
+Running Test Case: pan number as numeric char
+------------------------------------------------------------
+Request Body: {'pan': '1234567890', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "d7619ef5-999f-4774-9e17-af29c559b6e3", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number as numeric char" PASSED
+
+
+============================================================
+Running Test Case: pan number as alpha char
+------------------------------------------------------------
+Request Body: {'pan': 'QWERTYUIOP', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "a8aeba5d-db92-4ece-a594-c565d52d9f48", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number as alpha char" PASSED
+
+
+============================================================
+Running Test Case: pan number as special char
+------------------------------------------------------------
+Request Body: {'pan': '!@#$%^&*()', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "3a74c4cd-6dc1-4666-b1c0-04947a1b9be9", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number as special char" PASSED
+
+
+============================================================
+Running Test Case: pan number as mixed of alpha numeric special char
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC68#&$', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "caec043c-c789-4789-830c-1246c95c2399", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number as mixed of alpha numeric special char" PASSED
+
+
+============================================================
+Running Test Case: pan number less than 10 char
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC683', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "63212186-09a0-4a9b-b832-bad177d30752", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number less than 10 char" PASSED
+
+
+============================================================
+Running Test Case: pan number more than 10 char
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837GGG', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "0c644c64-324a-4ab0-9f89-9a06835ac959", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "pan number more than 10 char" PASSED
+
+
+============================================================
+Running Test Case: pan number empty
+------------------------------------------------------------
+Request Body: {'pan': '', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "f92d4148-aeef-494c-91ea-f49d00b16124", "client_ref_num": "Vampire", "error": "One or more parameters format is wrong"}
+Test case "pan number empty" PASSED
+
+
+============================================================
+Running Test Case: pan number empty space
+------------------------------------------------------------
+Request Body: {'pan': ' ', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "17fecf7f-4b61-4358-ac43-9de90a7b5cc3", "client_ref_num": "Vampire", "error": "One or more parameters format is wrong"}
+Test case "pan number empty space" PASSED
+
+
+============================================================
+Running Test Case: valid client ref number
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "fae2a5b0-ec18-4b7a-ad2a-80a55b70c9a1", "client_ref_num": "Vampire", "result": {"pan": "BJPPC6837G", "father_name": "DEVARAJAN"}}
+Test case "valid client ref number" PASSED
+
+
+============================================================
+Running Test Case: in-valid client ref number
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': '!@#$%'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "b3879ce9-0fc7-4c93-bbd6-a83104818917", "client_ref_num": "!@#$%", "error": "One or more parameters format is wrong"}
+Test case "in-valid client ref number" PASSED
+
+
+============================================================
+Running Test Case: leaving client ref number empty
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': ''}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "51cb64c6-27af-43a4-a47e-35bf085ffc71", "client_ref_num": "", "error": "One or more parameters format is wrong"}
+Test case "leaving client ref number empty" PASSED
+
+
+============================================================
+Running Test Case: client ref number empty space
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': ' '}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "30d02e74-d9ea-4fb6-82a9-43d59011c27c", "client_ref_num": " ", "error": "One or more parameters format is wrong"}
+Test case "client ref number empty space" PASSED
+
+
+============================================================
+Running Test Case: client ref number as 45 char
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': 'chandraprakashDchandraprakashDchandraprakashD'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "fb14be1e-2bd9-4d42-bf15-e6758e79ccc5", "client_ref_num": "chandraprakashDchandraprakashDchandraprakashD", "result": {"pan": "BJPPC6837G", "father_name": "DEVARAJAN"}}
+Test case "client ref number as 45 char" PASSED
+
+
+============================================================
+Running Test Case: client ref number more than 45 char
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': 'chandraprakashDchandraprakashDchandraprakashDCC'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "9100605a-fb79-456b-bfe4-819b94283ad4", "client_ref_num": "chandraprakashDchandraprakashDchandraprakashDCC", "error": "One or more parameters format is wrong"}
+Test case "client ref number more than 45 char" PASSED
+
+
+============================================================
+Running Test Case: changing the 5th char of the pan number
+------------------------------------------------------------
+Request Body: {'pan': 'BJPPX6837G', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 102, "request_id": "783676fc-70b6-4dbc-bcc9-b50ee0b22594", "client_ref_num": "Vampire", "message": "Invalid ID number or combination of inputs"}
+Test case "changing the 5th char of the pan number" PASSED
+
+
+============================================================
+Running Test Case: pan number in lower case char
+------------------------------------------------------------
+Request Body: {'pan': 'bjppc6837g', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "54bd5998-4e87-406a-b9bd-d8576a0b05e2", "client_ref_num": "Vampire", "result": {"pan": "BJPPC6837G", "father_name": "DEVARAJAN"}}
+Test case "pan number in lower case char" PASSED
+
+
+============================================================
+Running Test Case: entering e pan number
+------------------------------------------------------------
+Request Body: {'pan': 'BQXPL8246B', 'client_ref_num': 'Vampire'}
+Response Status Code: 503
+Response Content: {"http_response_code": 503, "request_id": "d4fcf150-437b-4c9b-8837-f9329877d1cd", "client_ref_num": "Vampire", "error": "Source is busy or unavailable. Try again later"}
+Test case "entering e pan number" FAILED: Missing keys in response: ['result', 'result_code']
+
+
+============================================================
+Running Test Case: Entering Deleted pan number
+------------------------------------------------------------
+Request Body: {'pan': 'AIUPI8924P', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 102, "request_id": "f6e842ca-499c-45a6-8db6-79ff1fb2e6fd", "client_ref_num": "Vampire", "message": "Invalid ID number or combination of inputs"}
+Test case "Entering Deleted pan number" PASSED
+
+
+============================================================
+Running Test Case: Entering Deactivated pan number
+------------------------------------------------------------
+Request Body: {'pan': 'LJKPK2266E', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 102, "request_id": "168a98ee-b910-4b22-aeec-b12bcd6a3692", "client_ref_num": "Vampire", "message": "Invalid ID number or combination of inputs"}
+Test case "Entering Deactivated pan number" PASSED
+
+
+============================================================
+Running Test Case: Entering Fake pan number
+------------------------------------------------------------
+Request Body: {'pan': 'DZLPD6077D', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "e087c2ff-1465-44fb-b44a-a0813019a278", "client_ref_num": "Vampire", "result": {"pan": "DZLPD6077D", "father_name": "SATENDRANATH DAS"}}
+Test case "Entering Fake pan number" PASSED
+
+
+============================================================
+Running Test Case: Entering No Record Found pan number
+------------------------------------------------------------
+Request Body: {'pan': 'HAHPS7571R', 'client_ref_num': 'Vampire'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 102, "request_id": "7eb343bc-b2f3-4ea8-aa48-7fd86f1104f8", "client_ref_num": "Vampire", "message": "Invalid ID number or combination of inputs"}
+Test case "Entering No Record Found pan number" PASSED
+
+
+============================================================
+Running Test Case: Entering Invalid (Regex) pan number
+------------------------------------------------------------
+Request Body: {'pan': 'IYGP4523AK', 'client_ref_num': 'Vampire'}
+Response Status Code: 400
+Response Content: {"http_response_code": 400, "request_id": "ca159a62-bdfd-44cf-b32f-6c895583e194", "client_ref_num": "Vampire", "error": "Invalid ID number or combination of inputs"}
+Test case "Entering Invalid (Regex) pan number" PASSED
+
+------------------- END OF TEST CASES -------------------
+============================================================
+Running Test Case: Verify that the result code 101 is stored in DB
+------------------------------------------------------------
+
+Request Body: {'pan': 'BJPPC6837G', 'client_ref_num': 'KYIeUTNPgC'}
+Response Status Code: 200
+Response Content: {"http_response_code": 200, "result_code": 101, "request_id": "7ed65c58-78b6-4d89-ab2d-005b12d1720f", "client_ref_num": "KYIeUTNPgC", "result": {"pan": "BJPPC6837G", "father_name": "DEVARAJAN"}}
+
+Database Verification for Client Ref Num: KYIeUTNPgC
+pan = BJPPC6837G
+client_ref_num = KYIeUTNPgC
+http_status_code = 200
+result_code = 101
+error = None
+source_response = {"status":"SUCCESS","errdata":null,"data":{"pan":"BJPPC6837G","father_name":"DEVARAJAN","is_individual":"true","name_on_pan":"DEVARAJAN CHANDRA PRAKASH"},"message":"Data fetch successfully!!!","requestid":"bcee8a2e-5599-4d00-9e5e-294a2f03c895","sequenceId":"0ddd4491-f16f-43a2-acb2-4724c1e9716e"}
+source_tat = 59.32
+created_on = 2025-04-22 20:03:00
+updated_on = 2025-04-22 20:03:00
+============================================================
+Finished Test Case: Verify that the result code 101 is stored in DB
+------------------------------------------------------------

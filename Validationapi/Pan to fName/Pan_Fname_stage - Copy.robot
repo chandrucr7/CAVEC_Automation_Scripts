@@ -16,12 +16,12 @@ Suite Teardown    Disconnect From Database
 ${DBName}                 validation
 ${DBUser}                 qa.chandraprakash.d
 ${DBPass}                 KrG3yfPY
-${DBHost}                 digitap-dev-db.chjy1zjdr74q.ap-south-1.rds.amazonaws.com
+${DBHost}                 dev-db.chjy1zjdr74q.ap-south-1.rds.amazonaws.com
 ${DBPort}                 3306
 ${base_url}               https://svcstage.digitap.work
 ${file_path}              C:\\Users\\ChandraprakashD\\PycharmProjects\\KYCValidations\\Validationapi\\Pan to fName\\PanFname_Data.csv
 ${json_schema_file}       C:\\Users\\ChandraprakashD\\PycharmProjects\\KYCValidations\\Validationapi\\Pan to fName\\Json_schema.json
-${output_file}            C:\\Users\\ChandraprakashD\\PycharmProjects\\KYCValidations\\Validationapi\\TestResults.log
+${output_file}            C:\\Users\\ChandraprakashD\\PycharmProjects\\KYCValidations\\Validationapi\\Pan to fName\\TestResults.log
 
 *** Keywords ***
 Write To Output File
@@ -92,7 +92,10 @@ Run All Test Cases From CSV
     FOR    ${index}    IN RANGE    0    ${test_data.__len__()}
         ${row}=    Get From List    ${test_data}    ${index}
         ${test_case_name}=    Get From Dictionary    ${row}    Test Cases
+        Write To Output File    ${EMPTY}
+        Write To Output File    ============================================================
         Write To Output File    Running Test Case: ${test_case_name}
+        Write To Output File    ------------------------------------------------------------
 
         ${body}=    Create Dictionary    pan=${row['pan']}    client_ref_num=${row['client_ref_num']}
         ${case_key}=    Evaluate    "case" + str(${index} + 1)
@@ -104,8 +107,10 @@ Run All Test Cases From CSV
         IF    '${status}' == 'FAIL'
             Append To List    ${failures}    Test case "${test_case_name}" failed: ${error}
             Write To Output File    Test case "${test_case_name}" FAILED: ${error}
+            Write To Output File     ${EMPTY}
         ELSE
             Write To Output File    Test case "${test_case_name}" PASSED
+            Write To Output File     ${EMPTY}
         END
     END
 

@@ -16,7 +16,7 @@ Suite Teardown    Disconnect From Database
 ${DBName}                 validation
 ${DBUser}                 qa.chandraprakash.d
 ${DBPass}                 KrG3yfPY
-${DBHost}                 digitap-dev-db.chjy1zjdr74q.ap-south-1.rds.amazonaws.com
+${DBHost}                 dev-db.chjy1zjdr74q.ap-south-1.rds.amazonaws.com
 ${DBPort}                 3306
 ${base_url}               https://svcstage.digitap.work
 ${file_path}              C:\\Users\\ChandraprakashD\\PycharmProjects\\KYCValidations\\Validationapi\\Pan to fName\\PanFname_Data.csv
